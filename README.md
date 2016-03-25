@@ -8,3 +8,8 @@ Synaptics_SwitchDesktop_10_patch.jsをテキストエディタで開き、
 5行目にSynaptics_SwitchDesktop_10.exeがあるパスを入れる。  
 
 C:\Users\　[ユーザー名]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startupに入れておくと起動時に実行してくれるぞ。  
+
+終了方法。  
+Windows PowerShellを起動して  
+>taskkill /im Synaptics_SwitchDesktop_10.exe /f  
+と入力する。
